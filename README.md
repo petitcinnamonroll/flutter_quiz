@@ -1,5 +1,8 @@
 # Quiz App by using flutter
 
+### Original Source for Quiz App format: https://github.com/abuanwar072/Quiz-App-Flutter
+Collaborating with chechelnitskd on code for prostate-predict app that will use quiz app format for the risk calculator portion
+
 ## [Watch it on YouTube](https://youtu.be/Nhy0VWAMsFU)
 
 **Packages we are using:**
