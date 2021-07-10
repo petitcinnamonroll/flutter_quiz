@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Quiz App',
+      title: 'Prostate Predict',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: WelcomeScreen(),

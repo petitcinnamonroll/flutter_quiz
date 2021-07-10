@@ -5,7 +5,11 @@ import 'package:quiz_app/controllers/question_controller.dart';
 import '../../../constants.dart';
 
 class Option extends StatelessWidget {
-  const Option({
+  //come back to these, I don't know how to implement them sequentially
+  final _formKey = GlobalKey<FormState>();
+  TextEditingController _ageController = TextEditingController();
+  TextEditingController _psaController = TextEditingController();
+  Option({
     Key key,
     this.text,
     this.index,
@@ -49,7 +53,7 @@ class Option extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "${index + 1}. $text",
+                    " $text",
                     style: TextStyle(color: getTheRightColor(), fontSize: 16),
                   ),
                   Container(
